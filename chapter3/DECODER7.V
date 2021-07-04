@@ -11,4 +11,5 @@ module decoder_7seg (
     assign Ff = (~B & ~C) | (A & ~C) | (A & ~B);
     assign Fg = (~A & B) | (A & ~C) | (A & ~B); 
     
+    
 endmodule
