@@ -1,0 +1,85 @@
+$date
+	Sun Jul 11 20:51:15 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module q5d_tb $end
+$var wire 1 ! EqualIn $end
+$var wire 1 " GreaterIn $end
+$var wire 1 # LessIn $end
+$var wire 1 $ Less $end
+$var wire 1 % Greater $end
+$var wire 1 & Equal $end
+$var reg 8 ' A [7:0] $end
+$var reg 8 ( B [7:0] $end
+$scope module uut $end
+$var wire 8 ) A [7:0] $end
+$var wire 8 * B [7:0] $end
+$var wire 1 ! EqualIn $end
+$var wire 1 " GreaterIn $end
+$var wire 1 # LessIn $end
+$var wire 1 + LowLess $end
+$var wire 1 , LowGreater $end
+$var wire 1 - LowEqual $end
+$var wire 1 $ Less $end
+$var wire 1 % Greater $end
+$var wire 1 & Equal $end
+$scope module C1 $end
+$var wire 4 . A [3:0] $end
+$var wire 4 / B [3:0] $end
+$var wire 1 ! EqualIn $end
+$var wire 1 " GreaterIn $end
+$var wire 1 # LessIn $end
+$var reg 1 - EqualOut $end
+$var reg 1 , GreaterOut $end
+$var reg 1 + LessOut $end
+$upscope $end
+$scope module C2 $end
+$var wire 4 0 A [3:0] $end
+$var wire 4 1 B [3:0] $end
+$var wire 1 - EqualIn $end
+$var wire 1 , GreaterIn $end
+$var wire 1 + LessIn $end
+$var reg 1 & EqualOut $end
+$var reg 1 % GreaterOut $end
+$var reg 1 $ LessOut $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 1
+b0 0
+b0 /
+b0 .
+1-
+0,
+0+
+b0 *
+b0 )
+b0 (
+b0 '
+1&
+0%
+0$
+z#
+z"
+z!
+$end
+#100000
+1$
+0&
+1,
+0-
+b1 1
+b1000 .
+b10000 (
+b10000 *
+b1000 '
+b1000 )
+#200000
