@@ -38,9 +38,4 @@ module q5c_tb;
 
         $display("testou");
     end
-
-
-
-
-    
 endmodule
